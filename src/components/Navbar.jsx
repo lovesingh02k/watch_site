@@ -2,12 +2,12 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-8 py-4 mr-8 ml-3">
       <img 
-        src="logo.png"
+        src="/logo.png"
         alt="Logo"
         className="h-28 w-auto object-contain"
       />
 
-        <div className="flex w-144 items-center rounded-full bg-white-900 px-5 py-3 shadow-[0_8px_30px_rgba(0,0,0,0.12)]">
+        <div className="flex w-136 items-center rounded-full bg-white-900 px-5 py-3">
             <input
                 type="text"
                 placeholder="Search..."

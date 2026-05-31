@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
+import WatchBrands from "./components/WatchBrands";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Navbar />
           <Hero />
           <Header />
+          <WatchBrands />
         </div>
       </section>
     </main>
