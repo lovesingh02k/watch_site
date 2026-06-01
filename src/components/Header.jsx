@@ -3,7 +3,7 @@ const Header = () => {
     <section className="mt-8 flex items-center justify-center gap-8 px-10 pb-15">
       <div className="-rotate-6 rounded-2xl bg-gradient-to-b from-gray-800 to-gray-950 p-3 transition-all duration-300 hover:-translate-y-4 hover:scale-110 hover:rotate-0">
         <img
-          src="src/assets/images/1.jpg"
+          src="watches/1.jpg"
           alt="Classic Heritage"
           className="h-72 w-[300px] rounded-xl border border-white/10 object-cover shadow-2xl"
         />
@@ -14,7 +14,7 @@ const Header = () => {
 
       <div className="rounded-2xl bg-gradient-to-b from-gray-800 to-gray-950 p-3 transition-all duration-300 hover:-translate-y-4 hover:scale-110">
         <img
-          src="src/assets/images/2.jpg"
+          src="watches/2.jpg"
           alt="Limited Edition"
           className="h-80 w-[300px] rounded-xl border border-white/10 object-cover shadow-2xl"
         />
@@ -26,7 +26,7 @@ const Header = () => {
 
       <div className="rotate-6 rounded-2xl bg-gradient-to-b from-gray-800 to-gray-950 p-3 transition-all duration-300 hover:-translate-y-4 hover:scale-110 hover:rotate-0">
         <img
-          src="src/assets/images/3.jpg"
+          src="watches/3.jpg"
           alt="Modern Precision"
           className="h-72 w-[288px] rounded-xl border border-white/10 object-cover shadow-2xl"
         />

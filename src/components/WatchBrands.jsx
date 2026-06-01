@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
 const cards = [
-  { img: "src/assets/images/Titan.png", title: "Titan", href: "/titan" },
-  { img: "src/assets/images/Rado.png", title: "Rado", href: "/rado" },
-  { img: "src/assets/images/Fossil.png", title: "Fossil", href: "/fossil" },
-  { img: "src/assets/images/Tissot.png", title: "Tissot", href: "/tissot" },
-  { img: "src/assets/images/Armani.png", title: "Armani", href: "/armani" },
-  { img: "src/assets/images/Timex.png", title: "Timex", href: "/timex" },
-  { img: "src/assets/images/Diesel.png", title: "Diesel", href: "/diesel" },
-  { img: "src/assets/images/Movado.png", title: "Movado", href: "/movado" },
+  { img: "watches/Titan.png", title: "Titan", href: "/titan" },
+  { img: "watches/Rado.png", title: "Rado", href: "/rado" },
+  { img: "watches/Fossil.png", title: "Fossil", href: "/fossil" },
+  { img: "watches/Tissot.png", title: "Tissot", href: "/tissot" },
+  { img: "watches/Armani.png", title: "Armani", href: "/armani" },
+  { img: "watches/Timex.png", title: "Timex", href: "/timex" },
+  { img: "watches/Diesel.png", title: "Diesel", href: "/diesel" },
+  { img: "watches/Movado.png", title: "Movado", href: "/movado" },
 ];
 
 const WatchBrands = () => {
