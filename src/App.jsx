@@ -5,6 +5,8 @@ import Hero from "./components/Hero";
 import Header from "./components/Header";
 import WatchBrands from "./components/WatchBrands";
 import Features from "./components/Features";
+import Discountcard from "./components/Discountcard";
+import Footer from "./components/Footer";
 
 import Titan from "./components/Brands/Titan";
 import Armani from "./components/Brands/Armani";
@@ -23,6 +25,8 @@ function Home() {
       <Header />
       <WatchBrands />
       <Features />
+      <Discountcard />
+      <Footer />
     </>
   );
 }
