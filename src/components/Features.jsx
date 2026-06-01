@@ -1,5 +1,6 @@
-import watch from "../assets/images/watch.png";
 import { Eye, Lightbulb, Droplets, Gem, Link2 } from "lucide-react";
+
+const watch = "/watches/watch.png";
 
 const Feature = ({ icon, title, text, className, line = "right" }) => {
   return (
