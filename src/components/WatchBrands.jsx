@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 const cards = [
-  { img: "src/assets/images/Brands/Titan.png", title: "Titan" },
-  { img: "src/assets/images/Brands/Rado.png", title: "Rado" },
-  { img: "src/assets/images/Brands/Fossil.png", title: "Fossil" },
-  { img: "src/assets/images/Brands/Tissot.png", title: "Tissot " },
-  { img: "src/assets/images/Brands/Armani.png", title: "Armani" },
-  { img: "src/assets/images/Brands/Timex.png", title: "Timex " },
-  { img: "src/assets/images/Brands/Diesel.png", title: "Diesel" },
-  { img: "src/assets/images/Brands/Movado.png", title: "Movado" },
+  { img: "src/assets/images/Titan.png", title: "Titan", href: "/titan" },
+  { img: "src/assets/images/Rado.png", title: "Rado", href: "/rado" },
+  { img: "src/assets/images/Fossil.png", title: "Fossil", href: "/fossil" },
+  { img: "src/assets/images/Tissot.png", title: "Tissot", href: "/tissot" },
+  { img: "src/assets/images/Armani.png", title: "Armani", href: "/armani" },
+  { img: "src/assets/images/Timex.png", title: "Timex", href: "/timex" },
+  { img: "src/assets/images/Diesel.png", title: "Diesel", href: "/diesel" },
+  { img: "src/assets/images/Movado.png", title: "Movado", href: "/movado" },
 ];
 
 const WatchBrands = () => {
@@ -23,22 +25,21 @@ const WatchBrands = () => {
         every style.
       </p>
 
-      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {cards.map((card, index) => (
-          <div
-            key={index}
-            className="rounded-2xl bg-white p-4 shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
-          >
-            <img
-              src={card.img}
-              alt={card.title}
-              className="h-48 w-full rounded-lg object-contain"
-            />
+          <Link to={card.href} key={index}>
+            <div className="rounded-2xl bg-gray-200 p-4 shadow-xl transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <img
+                src={card.img}
+                alt={card.title}
+                className="h-48 w-full rounded-lg bg-gray-300 object-contain"
+              />
 
-            <h2 className="mt-4 text-lg font-bold text-gray-800 cursor-pointer hover:text-blue-400 duration-300">
-              {card.title}
-            </h2>
-          </div>
+              <h2 className="mt-4 cursor-pointer text-lg font-bold text-gray-800 duration-300 hover:text-blue-400">
+                {card.title}
+              </h2>
+            </div>
+          </Link>
         ))}
       </div>
     </section>
