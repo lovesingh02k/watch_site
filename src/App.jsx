@@ -20,20 +20,6 @@ import Tissot from "./components/Brands/Tissot";
 function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Header />
-      <WatchBrands />
-      <Features />
-      <Discountcard />
-      <Footer />
-    </>
-  );
-}
-
-function App() {
-  return (
-    <main>
       <section className="relative min-h-screen overflow-hidden">
         <video
           autoPlay
@@ -48,19 +34,34 @@ function App() {
         <div className="absolute inset-0 bg-black/50"></div>
 
         <div className="relative z-10">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/titan" element={<Titan />} />
-            <Route path="/armani" element={<Armani />} />
-            <Route path="/diesel" element={<Diesel />} />
-            <Route path="/fossil" element={<Fossil />} />
-            <Route path="/movado" element={<Movado />} />
-            <Route path="/rado" element={<Rado />} />
-            <Route path="/timex" element={<Timex />} />
-            <Route path="/tissot" element={<Tissot />} />
-          </Routes>
+          <Navbar />
+          <Hero />
+          <Header />
         </div>
       </section>
+
+      <WatchBrands />
+      <Features />
+      <Discountcard />
+      <Footer />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <main className="w-full overflow-x-hidden">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/titan" element={<Titan />} />
+        <Route path="/armani" element={<Armani />} />
+        <Route path="/diesel" element={<Diesel />} />
+        <Route path="/fossil" element={<Fossil />} />
+        <Route path="/movado" element={<Movado />} />
+        <Route path="/rado" element={<Rado />} />
+        <Route path="/timex" element={<Timex />} />
+        <Route path="/tissot" element={<Tissot />} />
+      </Routes>
     </main>
   );
 }
