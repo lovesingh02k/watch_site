@@ -1,22 +1,31 @@
+import { Link } from "react-router-dom";
+import { CircleArrowLeft } from 'lucide-react';
+
 const cards = [
-  { img: "/1.png", title: "Tissot Watch 1" },
-  { img: "/2.png", title: "Tissot Watch 2" },
-  { img: "/3.jpg", title: "Tissot Watch 3" },
-  { img: "/4.jpg", title: "Tissot Watch 4" },
-  { img: "/5.jpg", title: "Tissot Watch 5" },
-  { img: "/6.jpg", title: "Tissot Watch 6" },
-  { img: "/7.jpg", title: "Tissot Watch 7" },
-  { img: "/8.jpg", title: "Tissot Watch 8" },
+  { img: "/src/assets/images/tissot/1.jpg", title: "Tissot Seastar 1000 Powermatic 80 Black & Gold", price: "$200" },
+  { img: "/src/assets/images/tissot/2.jpg", title: "Tissot Seastar 1000 Chronograph Green Dial", price: "$250" },
+  { img: "/src/assets/images/tissot/3.jpg", title: "Tissot PRX Automatic Blue Dial", price: "$300" },
+  { img: "/src/assets/images/tissot/4.jpg", title: "Tissot Chronograph Rose Gold Black Leather", price: "$350" },
+  { img: "/src/assets/images/tissot/5.jpg", title: "Tissot Couturier Chronograph Black Dial", price: "$400" },
+  { img: "/src/assets/images/tissot/6.jpg", title: "Tissot Chronograph Classic Black Leather", price: "$450" },
 ];
 
 const Tissot = () => {
   return (
     <section className="min-h-screen bg-white px-6 py-20">
+
+    <Link
+    to="/"
+    className="absolute left-4 top-4 ml-6 mt-6 hidden:sm:block text-gray-400 hover:text-gray-900 duration-300"
+    >
+      <CircleArrowLeft size={40} />
+    </Link>
+    
       <h1 className="mx-auto w-fit rounded-full border-[3px] border-black px-10 py-4 text-center font-serif text-lg font-bold text-black shadow-lg">
         Tissot Collections
       </h1>
 
-      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {cards.map((card, index) => (
           <div
             key={index}
@@ -28,9 +37,12 @@ const Tissot = () => {
               className="h-48 w-full rounded-lg bg-gray-300 object-contain"
             />
 
-            <h2 className="mt-4 text-lg font-bold text-gray-800">
+            <h2 className="mt-4 text-lg font-bold text-gray-800 font-serif cursor-pointer hover:text-blue-500 transition duration-300 ">
               {card.title}
             </h2>
+            <p className="mt-2 text-gray-600 font-serif cursor-pointer hover:text-blue-500 transition duration-300">
+              {card.price}
+            </p>
           </div>
         ))}
       </div>
