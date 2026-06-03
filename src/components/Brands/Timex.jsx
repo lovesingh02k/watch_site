@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from 'lucide-react';
 
-import timex1 from "../../assets/images/timex/1.jpg";
-import timex2 from "../../assets/images/timex/2.jpg";
-import timex3 from "../../assets/images/timex/3.webp";
-import timex4 from "../../assets/images/timex/4.jpg";
-import timex5 from "../../assets/images/timex/5.jpg";
-import timex6 from "../../assets/images/timex/6.jpg";
+import Timex1 from "../../assets/images/Timex/1.jpg";
+import Timex2 from "../../assets/images/Timex/2.jpg";
+import Timex3 from "../../assets/images/Timex/3.webp";
+import Timex4 from "../../assets/images/Timex/4.jpg";
+import Timex5 from "../../assets/images/Timex/5.jpg";
+import Timex6 from "../../assets/images/Timex/6.jpg";
 
 
 const cards = [
-  { img: timex1, title: "Timex Easy Reader Classic", price: "$200" },
-  { img: timex2, title: "Timex Heritage Chronograph Brown Leather", price: "$250" },
-  { img: timex3, title: "Timex Waterbury Classic Chronograph", price: "$300" },
-  { img: timex4, title: "Timex Easy Reader Gold Edition", price: "$350" },
-  { img: timex5, title: "Timex Minimalist Black Dial", price: "$400" },
-  { img: timex6, title: "Timex Automatic Skeleton Blue Rose Gold", price: "$450" },
+  { img: Timex1, title: "Timex Easy Reader Classic", price: "$200" },
+  { img: Timex2, title: "Timex Heritage Chronograph Brown Leather", price: "$250" },
+  { img: Timex3, title: "Timex Waterbury Classic Chronograph", price: "$300" },
+  { img: Timex4, title: "Timex Easy Reader Gold Edition", price: "$350" },
+  { img: Timex5, title: "Timex Minimalist Black Dial", price: "$400" },
+  { img: Timex6, title: "Timex Automatic Skeleton Blue Rose Gold", price: "$450" },
 ];
 
 const Timex = () => {

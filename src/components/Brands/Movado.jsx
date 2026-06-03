@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from 'lucide-react';
 
-import movado1 from "../../assets/images/movado/1.jpg";
-import movado2 from "../../assets/images/movado/2.jpg";
-import movado3 from "../../assets/images/movado/3.jpg";
-import movado4 from "../../assets/images/movado/4.jpg";
-import movado5 from "../../assets/images/movado/5.jpg";
-import movado6 from "../../assets/images/movado/6.jpg";
+import Movado1 from "../../assets/images/Movado/1.jpg";
+import Movado2 from "../../assets/images/Movado/2.jpg";
+import Movado3 from "../../assets/images/Movado/3.jpg";
+import Movado4 from "../../assets/images/Movado/4.jpg";
+import Movado5 from "../../assets/images/Movado/5.jpg";
+import Movado6 from "../../assets/images/Movado/6.jpg";
 
 const cards = [
-  { img: movado1, title: "Movado Series 800 Chronograph", price: "$200" },
-  { img: movado2, title: "Movado Museum Chronograph Black Leather", price: "$250" },
-  { img: movado3, title: "Movado Bold Sport Chronograph Grey", price: "$300" },
-  { img: movado4, title: "Movado Bold Automatic Gold Skeleton", price: "$350" },
-  { img: movado5, title: "Movado Museum Classic Black Ceramic", price: "$400" },
-  { img: movado6, title: "Movado Museum Heritage Brown Leather", price: "$450" },
+  { img: Movado1, title: "Movado Series 800 Chronograph", price: "$200" },
+  { img: Movado2, title: "Movado Museum Chronograph Black Leather", price: "$250" },
+  { img: Movado3, title: "Movado Bold Sport Chronograph Grey", price: "$300" },
+  { img: Movado4, title: "Movado Bold Automatic Gold Skeleton", price: "$350" },
+  { img: Movado5, title: "Movado Museum Classic Black Ceramic", price: "$400" },
+  { img: Movado6, title: "Movado Museum Heritage Brown Leather", price: "$450" },
 ];
 
 const Movado = () => {

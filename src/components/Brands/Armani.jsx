@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from "lucide-react";
 
-import armani1 from "../../assets/images/armani/1.png";
-import armani2 from "../../assets/images/armani/2.png";
-import armani3 from "../../assets/images/armani/3.jpg";
-import armani4 from "../../assets/images/armani/4.jpg";
-import armani5 from "../../assets/images/armani/5.jpg";
-import armani6 from "../../assets/images/armani/6.jpg";
+import Armani1 from "../../assets/images/Armani/1.png";
+import Armani2 from "../../assets/images/Armani/2.png";
+import Armani3 from "../../assets/images/Armani/3.jpg";
+import Armani4 from "../../assets/images/Armani/4.jpg";
+import Armani5 from "../../assets/images/Armani/5.jpg";
+import Armani6 from "../../assets/images/Armani/6.jpg";
 
 const cards = [
-  { img: armani1, title: "Emporio Armani Black Rose Gold Chronograph", price: "$250" },
-  { img: armani2, title: "Emporio Armani Square Chronograph", price: "$700" },
-  { img: armani3, title: "Emporio Armani Rose Gold Leather", price: "$650" },
-  { img: armani4, title: "Emporio Armani Roman Numeral Chronograph", price: "$300" },
-  { img: armani5, title: "Emporio Armani Ceramica Black", price: "$150" },
-  { img: armani6, title: "Emporio Armani Ceramica Gunmetal", price: "$550" },
+  { img: Armani1, title: "Emporio Armani Black Rose Gold Chronograph", price: "$250" },
+  { img: Armani2, title: "Emporio Armani Square Chronograph", price: "$700" },
+  { img: Armani3, title: "Emporio Armani Rose Gold Leather", price: "$650" },
+  { img: Armani4, title: "Emporio Armani Roman Numeral Chronograph", price: "$300" },
+  { img: Armani5, title: "Emporio Armani Ceramica Black", price: "$150" },
+  { img: Armani6, title: "Emporio Armani Ceramica Gunmetal", price: "$550" },
 ];
 
 const Armani = () => {

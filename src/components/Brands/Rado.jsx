@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from 'lucide-react';
 
-import rado1 from "../../assets/images/rado/1.jpg";
-import rado2 from "../../assets/images/rado/2.jpg";
-import rado3 from "../../assets/images/rado/3.jpg";
-import rado4 from "../../assets/images/rado/4.jpg";
-import rado5 from "../../assets/images/rado/5.jpg";
-import rado6 from "../../assets/images/rado/6.jpg";
+import Rado1 from "../../assets/images/Rado/1.jpg";
+import Rado2 from "../../assets/images/Rado/2.jpg";
+import Rado3 from "../../assets/images/Rado/3.jpg";
+import Rado4 from "../../assets/images/Rado/4.jpg";
+import Rado5 from "../../assets/images/Rado/5.jpg";
+import Rado6 from "../../assets/images/Rado/6.jpg";
 
 const cards = [
-  { img: rado1, title: "Rado Centrix Automatic Black Leather", price: "$200" },
-  { img: rado2, title: "Rado Centrix Black Ceramic", price: "$250" },
-  { img: rado3, title: "Rado Centrix Diamonds Gold Edition", price: "$300" },
-  { img: rado4, title: "Rado Jubilé Two-Tone Gold Black", price: "$350" },
-  { img: rado5, title: "Rado HyperChrome Black Ceramic", price: "$400" },
-  { img: rado6, title: "Rado HyperChrome Midnight Black", price: "$450" },
+  { img: Rado1, title: "Rado Centrix Automatic Black Leather", price: "$200" },
+  { img: Rado2, title: "Rado Centrix Black Ceramic", price: "$250" },
+  { img: Rado3, title: "Rado Centrix Diamonds Gold Edition", price: "$300" },
+  { img: Rado4, title: "Rado Jubilé Two-Tone Gold Black", price: "$350" },
+  { img: Rado5, title: "Rado HyperChrome Black Ceramic", price: "$400" },
+  { img: Rado6, title: "Rado HyperChrome Midnight Black", price: "$450" },
 ];
 
 const Rado = () => {

@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from 'lucide-react';
 
-import titan1 from "../../assets/images/titan/1.jpg";
-import titan2 from "../../assets/images/titan/2.jpg";
-import titan3 from "../../assets/images/titan/3.jpg";
-import titan4 from "../../assets/images/titan/4.jpg";
-import titan5 from "../../assets/images/titan/5.jpg";
-import titan6 from "../../assets/images/titan/6.jpg";
+import Titan1 from "../../assets/images/Titan/1.jpg";
+import Titan2 from "../../assets/images/Titan/2.jpg";
+import Titan3 from "../../assets/images/Titan/3.jpg";
+import Titan4 from "../../assets/images/Titan/4.jpg";
+import Titan5 from "../../assets/images/Titan/5.jpg";
+import Titan6 from "../../assets/images/Titan/6.jpg";
 
 const cards = [
-  { img: titan1, title: "Titan Workwear Black Dial", price: "$200" },
-  { img: titan2, title: "Titan Automatic Skeleton", price: "$250" },
-  { img: titan3, title: "Titan Octane Chronograph", price: "$300" },
-  { img: titan4, title: "Titan Karishma Leather", price: "$350" },
-  { img: titan5, title: "Titan Edge Slim", price: "$400" },
-  { img: titan6, title: "Titan Neo Automatic", price: "$450" },
+  { img: Titan1, title: "Titan Workwear Black Dial", price: "$200" },
+  { img: Titan2, title: "Titan Automatic Skeleton", price: "$250" },
+  { img: Titan3, title: "Titan Octane Chronograph", price: "$300" },
+  { img: Titan4, title: "Titan Karishma Leather", price: "$350" },
+  { img: Titan5, title: "Titan Edge Slim", price: "$400" },
+  { img: Titan6, title: "Titan Neo Automatic", price: "$450" },
 ];
 
 const Titan = () => {
