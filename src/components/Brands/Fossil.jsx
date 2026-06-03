@@ -1,13 +1,20 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from 'lucide-react';
 
+import fossil1 from "../../assets/images/fossil/1.webp";
+import fossil2 from "../../assets/images/fossil/2.jpg";
+import fossil3 from "../../assets/images/fossil/3.jpg";
+import fossil4 from "../../assets/images/fossil/4.jpg";
+import fossil5 from "../../assets/images/fossil/5.jpg";
+import fossil6 from "../../assets/images/fossil/6.jpg";
+
 const cards = [
-  { img: "/src/assets/images/fossil/1.webp", title: "Fossil Machine Black Steel", price: "$180" },
-  { img: "/src/assets/images/fossil/2.jpg", title: "Fossil Townsman Skeleton", price: "$200" },
-  { img: "/src/assets/images/fossil/3.jpg", title: "Fossil Grant Chronograph", price: "$220" },
-  { img: "/src/assets/images/fossil/4.jpg", title: "Fossil Neutra Chronograph", price: "$240" },
-  { img: "/src/assets/images/fossil/5.jpg", title: "Fossil Nate Black Chronograph", price: "$260" },
-  { img: "/src/assets/images/fossil/6.jpg", title: "Fossil Townsman Blue Skeleton", price: "$280" },
+  { img: fossil1, title: "Fossil Machine Black Steel", price: "$180" },
+  { img: fossil2, title: "Fossil Townsman Skeleton", price: "$200" },
+  { img: fossil3, title: "Fossil Grant Chronograph", price: "$220" },
+  { img: fossil4, title: "Fossil Neutra Chronograph", price: "$240" },
+  { img: fossil5, title: "Fossil Nate Black Chronograph", price: "$260" },
+  { img: fossil6, title: "Fossil Townsman Blue Skeleton", price: "$280" },
 ];
 
 const Fossil = () => {

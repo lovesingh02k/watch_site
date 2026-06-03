@@ -1,13 +1,20 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from 'lucide-react';
 
+import tissot1 from "../../assets/images/tissot/1.jpg";
+import tissot2 from "../../assets/images/tissot/2.jpg";
+import tissot3 from "../../assets/images/tissot/3.jpg";
+import tissot4 from "../../assets/images/tissot/4.jpg";
+import tissot5 from "../../assets/images/tissot/5.jpg";
+import tissot6 from "../../assets/images/tissot/6.jpg";
+
 const cards = [
-  { img: "/src/assets/images/tissot/1.jpg", title: "Tissot Seastar 1000 Powermatic 80 Black & Gold", price: "$200" },
-  { img: "/src/assets/images/tissot/2.jpg", title: "Tissot Seastar 1000 Chronograph Green Dial", price: "$250" },
-  { img: "/src/assets/images/tissot/3.jpg", title: "Tissot PRX Automatic Blue Dial", price: "$300" },
-  { img: "/src/assets/images/tissot/4.jpg", title: "Tissot Chronograph Rose Gold Black Leather", price: "$350" },
-  { img: "/src/assets/images/tissot/5.jpg", title: "Tissot Couturier Chronograph Black Dial", price: "$400" },
-  { img: "/src/assets/images/tissot/6.jpg", title: "Tissot Chronograph Classic Black Leather", price: "$450" },
+  { img: tissot1, title: "Tissot Seastar 1000 Powermatic 80 Black & Gold", price: "$200" },
+  { img: tissot2, title: "Tissot Seastar 1000 Chronograph Green Dial", price: "$250" },
+  { img: tissot3, title: "Tissot PRX Automatic Blue Dial", price: "$300" },
+  { img: tissot4, title: "Tissot Chronograph Rose Gold Black Leather", price: "$350" },
+  { img: tissot5, title: "Tissot Couturier Chronograph Black Dial", price: "$400" },
+  { img: tissot6, title: "Tissot Chronograph Classic Black Leather", price: "$450" },
 ];
 
 const Tissot = () => {

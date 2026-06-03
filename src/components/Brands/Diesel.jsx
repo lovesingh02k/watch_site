@@ -1,13 +1,20 @@
 import { Link } from "react-router-dom";
 import { CircleArrowLeft } from 'lucide-react';
 
+import diesel1 from "../../assets/images/diesel/1.jpg";
+import diesel2 from "../../assets/images/diesel/2.jpg";
+import diesel3 from "../../assets/images/diesel/3.jpg";
+import diesel4 from "../../assets/images/diesel/4.jpg";
+import diesel5 from "../../assets/images/diesel/5.jpg";
+import diesel6 from "../../assets/images/diesel/6.jpg";
+
 const cards = [
-  { img: "/src/assets/images/diesel/1.jpg", title: "Diesel Overflow Tactical", price: "$200" },
-  { img: "/src/assets/images/diesel/2.jpg", title: "Diesel Mega Chief Black Steel", price: "$250" },
-  { img: "/src/assets/images/diesel/3.jpg", title: "Diesel Mega Chief Brown Leather", price: "$300" },
-  { img: "/src/assets/images/diesel/4.jpg", title: "Diesel Overflow Gunmetal", price: "$350" },
-  { img: "/src/assets/images/diesel/5.jpg", title: "Diesel Mr. Daddy Black", price: "$400" },
-  { img: "/src/assets/images/diesel/6.jpg", title: "Diesel Mr. Daddy Leather", price: "$450" },
+  { img: diesel1, title: "Diesel Overflow Tactical", price: "$200" },
+  { img: diesel2, title: "Diesel Mega Chief Black Steel", price: "$250" },
+  { img: diesel3, title: "Diesel Mega Chief Brown Leather", price: "$300" },
+  { img: diesel4, title: "Diesel Overflow Gunmetal", price: "$350" },
+  { img: diesel5, title: "Diesel Mr. Daddy Black", price: "$400" },
+  { img: diesel6, title: "Diesel Mr. Daddy Leather", price: "$450" },
 ];
 
 const Diesel = () => {
